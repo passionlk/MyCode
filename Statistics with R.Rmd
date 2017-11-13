@@ -1,0 +1,8 @@
+x = matrix (data=c(1,2,3,4), nrow = 2, byrow = TRUE)
+x
+my.data <- readRDS("/Users/passionlk/Documents/MSBA/Machine Learning/ISLR/ISLR/data/Rdata.rds")
+
+set.seed(30)
+y=rnorm(100)
+mean(y)
+
